@@ -38,9 +38,21 @@ public class MainApp {
       userService.add(user4);
 
       user1 = userService.getUserByCarModelAndSeries("model1", 10);
+      System.out.println("_____GET_USER_____");
+      System.out.println(user1);
+      System.out.println("_____GET_USER_____");
       user2 = userService.getUserByCarModelAndSeries("model2", 20);
+      System.out.println("_____GET_USER_____");
+      System.out.println(user2);
+      System.out.println("_____GET_USER_____");
       user3 = userService.getUserByCarModelAndSeries("model3", 30);
+      System.out.println("_____GET_USER_____");
+      System.out.println(user3);
+      System.out.println("_____GET_USER_____");
       user4 = userService.getUserByCarModelAndSeries("model4", 40);
+      System.out.println("_____GET_USER_____");
+      System.out.println(user4);
+      System.out.println("_____GET_USER_____");
 
       List<User> users = userService.listUsers();
 
